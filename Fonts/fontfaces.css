@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'KievitCompPro-Bold';
+  src: url('KievitCompPro-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'KievitCompPro-Light';
+  src: url('KievitCompPro-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'KievitCompPro';
+  src: url('KievitCompPro.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
