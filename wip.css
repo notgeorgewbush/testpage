@@ -1,0 +1,40 @@
+@media screen and (max-width: 509px) {
+    .logo-avira {
+      margin-top: 16.5px;
+    }
+    .message-block {
+      margin-top: 8px;
+      height: 400px;
+      width: 320px;
+      border: 1px solid #CFD6DC;
+      border-radius: 5px;
+      background-color: #FFFFFF;
+      box-shadow: 0 10px 20px 0 rgba(89, 92, 104, 0.1);
+    }
+    .content-block {
+      margin-top: 32px;
+      margin-left: 24px;
+    }
+    .bug-picture {
+      width: 32px;
+      height: 32px;
+    }
+    .malware-warning {
+      top: 6px;
+      margin-left: 12px;
+      height: 40px;
+      width: 252px;
+      font-size: 28px;
+      line-height: 40px;
+    }
+    .malware-heading {
+      margin-top: 16px;
+      height: 48px;
+      width: 254px;
+    }
+    .content-block {}
+    .malware-heading {}
+    .malware-text {}
+  }
+  
+  @media screen and (max-width: 396px) {
