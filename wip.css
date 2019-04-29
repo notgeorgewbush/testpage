@@ -37,7 +37,6 @@
 
 @media screen and (max-width: 396px) {}
 
-
 /* .. iphone: */
 
 .button-go-back {
@@ -52,29 +51,39 @@
 }
 
 /* first responsive */
+
 /* @media screen and (min-width: 461px) and (max-width: 509px) { */
-  @media screen and (min-width: 508px) and (max-width: 509px) {
-    .message-block {
-      width: 100%;
-      text-align: center;
-    }
-    .content-block {
-      margin-left: auto;
-      display: inline-block;
-      margin-top: 23px;
-      width: 100%;
-      text-align: center;
-    }
-    .align--side-by-side {
-      display: block;
-      margin: auto;
-    }
-    .malware-heading {
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .malware-text {
-      margin-left: auto;
-      margin-right: auto;
-    }
+
+@media screen and (min-width: 508px) and (max-width: 509px) {
+  .message-block {
+    width: 100%;
+    text-align: center;
   }
+  .content-block {
+    margin-left: auto;
+    display: inline-block;
+    margin-top: 23px;
+    width: 100%;
+    text-align: center;
+  }
+  .align--side-by-side {
+    display: block;
+    margin: auto;
+  }
+  .malware-heading {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .malware-text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/*
+  pixel sizes:
+  509 responsive needed
+  461 logo no loonger fits on left of text
+  396 side margins no longer adequate
+  320 minimum recommended supported display size
+*/
